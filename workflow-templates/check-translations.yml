@@ -1,0 +1,8 @@
+name: translations-check
+run-name: Checking if PR made by ${{ github.actor }} might need translations
+on:
+  pull_request:
+    types: [opened]
+jobs:
+  check:
+    uses: adpaste/textunited-actions/.github/workflows/check-translations.yml@main
