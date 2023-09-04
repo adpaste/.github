@@ -1,7 +1,7 @@
 {
   "name": "Check Translations Workflow",
   "description": "Checks if PR contains translation changes. Informs user how to proceed.",
-  "iconName": "opticon unverified-16",
+  "iconName": "octicon unverified-16",
   "categories": [
     "utilities"
   ]
