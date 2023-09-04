@@ -1,0 +1,8 @@
+name: translations-request
+run-name: Translations requested by ${{ github.actor }}, sending to TextUnited
+on:
+  pull_request:
+    types: [labeled]
+jobs:
+  request:
+    uses: adpaste/textunited-actions/.github/workflows/request-translations.yml@main

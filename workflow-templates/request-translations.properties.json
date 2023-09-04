@@ -1,0 +1,8 @@
+{
+  "name": "Request Translations Workflow",
+  "description": "Sends new translations to TextUnited for translation.",
+  "iconName": "octicon briefcase",
+  "categories": [
+    "utilities"
+  ]
+}

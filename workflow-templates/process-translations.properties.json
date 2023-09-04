@@ -1,0 +1,8 @@
+{
+  "name": "Process Translations Workflow",
+  "description": "Load translations from TextUnited.",
+  "iconName": "octicon checklist",
+  "categories": [
+    "utilities"
+  ]
+}

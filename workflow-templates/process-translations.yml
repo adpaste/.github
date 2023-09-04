@@ -1,0 +1,9 @@
+name: translations-process
+run-name: Updating translations from TextUnited
+on:
+  schedule:
+    - cron:  '0 * * * *'
+  workflow_dispatch:
+jobs:
+  process:
+    uses: adpaste/textunited-actions/.github/workflows/process-translations.yml@main
