@@ -5,4 +5,4 @@ on:
     types: [opened]
 jobs:
   check:
-    uses: adpaste/textunited-actions/.github/workflows/check-translations.yml@main
+    uses: adpaste/textunited-actions/workflows/check-translations.yml@main

@@ -5,4 +5,4 @@ on:
     types: [labeled]
 jobs:
   request:
-    uses: adpaste/textunited-actions/.github/workflows/request-translations.yml@main
+    uses: adpaste/textunited-actions/workflows/request-translations.yml@main

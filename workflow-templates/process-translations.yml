@@ -6,4 +6,4 @@ on:
   workflow_dispatch:
 jobs:
   process:
-    uses: adpaste/textunited-actions/.github/workflows/process-translations.yml@main
+    uses: adpaste/textunited-actions/workflows/process-translations.yml@main
